@@ -1,5 +1,85 @@
 @import "~bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
+body{
+    background-color:#ffffcc;
+    font-family: 'Josefin Sans', cursive;
+}
+
+.jumbotron {
+    text-align:center;
+    margin-top:60px;
+}
+
+.grid-container {
+  display: grid;
+   justify-content: center;
+   
+}
+
+.grid-container-cards{
+   display:flex;
+   margin:auto;
+   text-align:center;
+   margin-bottom:150px;
+   
+};
+
+.card{
+    margin:20px;
+    background-color:#ffffcc;
+
+}
+.card-text{
+    color:#33cc33
+}
+
+.card-title{
+    color:#33cc33
+}
+
+
+
+
+
+.btn {
+   background-color: #bbff33;
+   border:none;
+   color:#008000;
+   margin-top:30px;
+}
+
+a .btn{
+    background-color: #bbff33
+}
+
+
+footer {
+     position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 60px;
+   background-color: #80ff80;
+   color: white;
+   text-align: center;
+};
+
+.navbar {
+     background-color: #80ff80;
+     border-color:#00802b;
+
+
+}
+
+.navbar a {
+    color:#008000;
+}
+
+footer p {
+    margin-top:20px;
+
+}
 /* 
 
     You can write your own styles here...
